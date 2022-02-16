@@ -1,0 +1,339 @@
+/* &display=swap */
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Taviraj:400&display=swap );
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+.why__createx {
+	font-family: lato;
+	margin: 180px 0px 0px 0px;
+	font-weight: 400;
+}
+.why__container {
+	max-width: 1170px;
+	padding: 0px 15px;
+	margin: 0px auto;
+}
+.container {}
+.why__body {}
+.why__text-top {
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+	color: #1E212C;
+}
+.why__title {
+  font-size: 46px;
+  line-height: 130%;
+  font-weight: 700;
+  color: #1E212C;
+  margin-bottom: 40px;
+}
+.why__menu {
+	padding: 0px 0px 0px 30px;
+	max-width: 390px;
+	line-height: 160%;
+	color: #424551;
+	margin: 20px 0 0 0;
+}
+.why__menu ::before {
+	content: "";
+	margin: 0px 10px 0px -30px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+   background: url('../img/icone/Vector.png') left top / 15px no-repeat;
+}
+.why__menu li:not(:last-child) {
+	margin-bottom: 20px;
+}
+.why__btn {  
+	color: #fff;
+	margin: 49px 0px 0px 0px;
+	/* box-shadow: 0 1px 5px 0 #000, inset 0 0px 5px 0 #000; */
+	display: inline-block;
+	padding: 22px 70px;
+   background: #F95614;
+	border-radius: 4px;
+}
+.buttom {}
+/* =================series==================== */
+.series {
+	margin-top: 40px;
+  font-family: taviraj;
+}
+.series__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+.series__title::after{
+	content: "";
+	display: block;
+	width: 65px;
+	border: 1px solid #000;
+	margin: 8px 0px 0px 0px;
+}
+/* =================flyg====================== */
+.wrapper {
+	background: url('../img/fyggplatsen/1.png') 0 0 / 100% fixed no-repeat;
+}
+.flighistorik__se {
+	margin-top: 50px;
+	min-height: 100vh;
+	overflow: hidden;
+}
+.se__container {
+	background: url('../img/fyggplatsen/2.png') 0 0 / cover no-repeat ;
+}
+.container {
+	
+	background-color: #fff;
+	max-width: 1170px;
+	padding: 0px 15px;
+	margin: 0px auto;
+}
+.se__title {
+	border-radius: 5px;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 40px 0px;
+}
+.se__title:hover {
+	background-color: #F95614;
+	text-decoration: line-through;
+}
+.se__title:focus {
+	/* outline: 5px dotted green; */
+}	
+.title {
+	border-radius: 40px;
+	display: inline-block;
+	box-shadow: 0 5px 0 0 #000, inset 0 0px 5px 0 #000;
+	font-size: 70px;
+	text-transform: uppercase;
+	padding: 0px 20px;
+}
+.title:hover {
+   transition: all 0.3s ease 0s;
+}
+.se__item {
+	border-radius: 5px;
+	display: inline-block;
+	background-color: #dedfe200;
+}
+.se__link {
+	margin-bottom: 20px;
+	text-decoration: underline;
+	font-size: 20px;
+}
+.se__link:hover {
+	
+}
+.se__item {
+	color: #F95614;
+	padding: 10px;
+}
+.se__item:hover {
+	text-shadow: 2px 0 0#F95614;
+	color: rgb(16, 151, 34);
+	text-decoration: underline;
+	box-shadow: 0 0px 0 0 #000, inset 0 0px 5px 0 #000;
+}
+.se__items {
+	color: blue;
+}
+.se__items:hover {
+   color: #F95614;
+	text-shadow: 2px 0 0 #F95614 ;
+	transition: all 0.3s ease 0s;
+}
+.se__idag {
+  margin-bottom: 40px;
+}
+.se__idag:hover {
+	background-color: #424551;
+}
+.se__text-1 {
+	border-radius: 5px;
+	background-color: #424551;
+	min-height:200px ;
+  font-size: 20px;
+  line-height: 160%;
+  overflow: hidden;
+  overflow: auto;
+  margin-bottom: 40px;
+}
+.se__text-1:hover {
+	background-color: #b31e1e00;
+}
+.se__text-1 p::after {
+	content: "";
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: url('../img/fyggplatsen/Новая папка/avatar_2.jpg') 0 0/ 40px no-repeat;
+}
+.se__text-1 p::before {
+	content: "";
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: url('../img/fyggplatsen/Новая папка/avatar_2.jpg') 0 0/ 40px no-repeat;
+	transition: all 0.3s ease 0s;
+}
+.se__text-1 p:hover::before {
+	transform: rotate(360beg) scale(1.3);
+}
+.se__stor {
+  background-color: #4245510e;
+  margin-bottom: 40px;
+}
+.se__stor:hover {
+	 background-color: #b31e1e;
+}
+.se__text-2 {
+	max-height: 100px;
+	text-decoration: line-through;
+ 	background-color: #6c7fce;
+	 border-radius: 5px;
+	 font-size: 20px;
+	 box-shadow: 1px 2px 1px 1px #000;
+   overflow: hidden;
+	overflow: auto;
+	margin-bottom: 30px;
+}
+.se__text-2:hover {
+	text-decoration: none;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0);
+}
+.se__text-2::first-line {
+	color: red;
+}
+.se__studie {
+  margin-bottom: 50px;
+  margin-bottom: 20px;
+}
+.se__studie:hover	{ 
+	color: #000;
+	text-shadow: 2px 0 0 #000;
+}
+.se__text-3 {
+  font-size: 20px;
+  line-height: 130%;
+  color: #c1ce13;
+  	transition: all 0.3s ease 0s;
+	max-height: 100px;
+	overflow: auto;
+	border-radius: 5px;
+	box-shadow: 5px 4px 5px 5px #000;
+	margin-bottom: 40px;
+}
+.se__text-3:hover	{
+	background-color: #c1ce13;
+	color: #000;
+	text-shadow: 2px 0 0 #000;
+	text-decoration: underline;
+}
+.se__bilig {
+   margin-bottom: 30px;
+}
+.se__bilig:hover	{
+	text-align: center;
+	text-shadow: 2px 0 0 #000;
+	color: #6c7fce;
+	background-color: #F95614;
+}
+.se__image-1 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.se__image-1:hover	{
+	text-shadow: 2px 0 0 #000;
+	text-align: right;
+	background-color: rgba(221, 21, 21, 0.185);
+}
+.se__text-bottom {
+	margin-bottom: 50px;
+	padding: 20px;
+	color: green;
+	font-size: 20px;
+	border-radius: 10px;
+	box-shadow: inset 5px 5px 5px 5px #000,5px 5px 5px 5px #000;
+}
+.se__text-bottom p:last-child {
+	margin-top: 20px;
+	color: goldenrod;
+}
+.se__text-bottom p:hover {
+	text-shadow: 2px 0 0 goldenrod;
+	text-decoration: overline;
+	background-color: #b31e1e;
+}	
+.se__menu {
+	line-height: 160%;
+	font-size: 20px;
+	padding: 0px 0px 0px 20px;
+}
+.item {
+  margin-bottom: 20px;
+}
+.link {
+  color: red;
+  padding: 10px;
+} 
+.link::before {
+	content: "";
+	display: inline-block;
+	margin: 0px 20px -7px 0px;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: url('../img/fyggplatsen/Новая папка/avatar_2.jpg') 0px 0px / 30px no-repeat;
+	border-radius: 50%;
+	transition: all 0.3s ease 0s;
+}
+.link:hover::before {
+	transform: rotate(360deg) scale(1.3);
+} 
+.menu__list li:hover {
+   text-shadow: 2px 0 0 red;
+	color: red	;
+	text-decoration: underline;
+	box-shadow: inset 1px 1px 1px 1px #000,1px 1px 1px 1px #000;
+}
+.menu__list li:active {
+	box-shadow: inset 1px 5px 5px 5px #000,5px 5px 5px 5px #000;
+}
+.se__btn {
+	font-size: 30px;
+	border-radius: 10px;
+	text-align: center;
+	display: block;
+	padding: 20px 40px;
+	background-color: rgba(64, 64, 238, 0);
+	margin-bottom: 20px;
+	box-shadow: 0 2px 0px 3px rgb(2, 2, 2), inset 0 1px 0 0 rgb(2, 2, 2);
+}
+.se__btn:hover	{
+	background-color: #6c7fce;
+	transition: all 0.3s ease 0s;
+	box-shadow: 0 5px 0px 3px rgb(2, 2, 2), inset 0 3px 0 0 rgb(2, 2, 2);
+}
+.se__btn:active {
+	background-color: #6c7fce;
+	box-shadow: inset 0px 0px 5px 0px #000;
+	/* box-shadow: 0 1px 0px 3px rgb(2, 2, 2), inset 0 1px 0 0 rgb(2, 2, 2); */
+	transition: all 0.3s ease 0s;
+}
